@@ -34,7 +34,7 @@ Now place the obtained Consumer Key and Consumer Secret in the TODO.keys.json fi
 * Requirements : `Docker`
 * #### RUN `docker build --tag twittercontest .`
 * #### RUN `docker run -it -p 8080:8080 twittercontest`
-* The Application is up and running at [localhost:8080](http://localhost:8080)   
+* The Application is up and is running at [localhost:8080](http://localhost:8080)   
 
 ### To run the application locally
 * Requirements : `Golang`
@@ -42,4 +42,4 @@ Now place the obtained Consumer Key and Consumer Secret in the TODO.keys.json fi
 * `cd` to the root directory
 * #### RUN  `go mod download`
 * #### RUN  `go run main.go`
-* The Application is up and running at [localhost:8080](http://localhost:8080) 
+* The Application is up and is running at [localhost:8080](http://localhost:8080) 
